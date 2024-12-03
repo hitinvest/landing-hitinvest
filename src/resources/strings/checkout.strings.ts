@@ -1,0 +1,105 @@
+const CheckoutStrings = {
+    artist: "Matuê",
+    pathUrl: "Página inicial /",
+    maskLink: "Checkout",
+    title: "Finalize sua compra",
+    paymentMethod: {
+        qrcode: "QR Code Pix",
+        creditCard: "Cartão de Crédito",
+        howToPay: "Como vai pagar?",
+        crypto: "Crypto ($USDC)",
+    },
+    userForm: {
+        basicInfo: "Informações básicas",
+        hasAccount: "Já tem uma conta?",
+        logIn: "Faça login!",
+        fields: {
+            name: "Nome Completo",
+            documentNumber: "CPF",
+            birthday: "Data de Nascimento",
+            cellPhone: "Telefone Móvel",
+            email: "E-mail",
+            confirmEmail: "Confirme o e-mail",
+        },
+    },
+    addresForm: {
+        title: "Endereço de entrega",
+        ask: "Por que isso é necessário?",
+        fields: {
+            zipcode: "CEP",
+            publicPlace: "Logradouro",
+            number: "Número",
+            neighborhood: "Bairro",
+            complementary: "Complemento (opcional)",
+        },
+    },
+    creditCardForm: {
+        title: "Cartão de Crédito",
+        fields: {
+            cardNumber: "Número do Cartão",
+            validity: "Validade",
+            cardName: "Nome no cartão",
+            cvv: "Código de verificação (CVV)",
+            cpf: "CPF do titular do cartão",
+            birthday: "Data de nascimento",
+        },
+        changePaymentMethod: "Trocar método de pagamento",
+    },
+    discountForm: {
+        title: "Descontos",
+        ticketDiscount: "Cupom de desconto",
+    },
+    purchaseInformation: {
+        title: "Informações de compra",
+        goldenPart: "Pedaço de Ouro",
+        bronzePart: "Pedaço de Bronze",
+        silverPart: "Pedaço de Prata",
+        artist: "Artista:",
+        music: "Música:",
+        yourRights: "Os seus Direitos & Benefícios",
+        benefits: {
+            first: "Rendimentos por X anos",
+            second: "0.2% dos Royalties Digitais (por Pedaço)",
+            tertiary: "Acesso à grupo exclusivo no Telegram",
+            fourth: "Vídeochamada em grupo com o artista",
+            fifth: "Camiseta exclusiva do lançamento (por Pedaço)",
+        },
+        serviceTax: "Taxa de serviço:",
+        discount: "Descontos:",
+        total: "Total a pagar:",
+        finalize: "Finalizar compra",
+    },
+    qrCodeForm: {
+        title: "QR Code Pix",
+        approved: "Pagamento aprovado",
+        awaitPayment: {
+            title: `Falta pouco para você se tornar quase sócio do seu artista. Abra o
+        Aplicativo do seu banco e escaneie o QR Code abaixo ou copie o código
+        Cópia & Cola para pagar a compra.`,
+            pix: "a56c-4928-93be-9b7bf14bee23HitInvest-20321",
+            warningTime: "Atenção: o tempo para você pagar acaba em",
+        },
+        loadingProcess: {
+            title: "Confirmando o seu pagamento...",
+        },
+    },
+    cryptoPayment: {
+        title: "Crypto ($USDC)",
+        metaMaskTitle: "Metamask",
+        walletConnected: "Carteira conectada",
+        youWallet: "Sua carteira de USDC",
+        helper1: "Novo em Crypto?",
+        helper2: "Tire suas dúvidas de como pagar utilizando USDC.",
+        connectWallet: "Conecte sua Carteira",
+        terms: `Ao conectar sua carteira para processar o pagamento, você declara que aceita e concorda com nossos <a style="color: #23489F; cursor: pointer; text-decoration: underline; font-weight : 600;" "href="#">Termos de Uso</a> e nossa <a style="color: #23489F; font-weight : 600; cursor: pointer; text-decoration: underline" >Política de Privacidade</a>.`,
+        pix: "QR Code",
+        notice: "Escaneie o QR Code com a MetaMask",
+        metaMask: "Ainda não tem MetaMask? Clique aqui",
+        changePaymentMethod: "Trocar método de pagamento",
+        newInCrypto1: "Novo em Crypto?",
+        newInCrypto2: "Tire suas dúvidas de como pagar utilizando USDC",
+        agreement: `Declaro que aceito e concordo com os <a style="color: #23489F; cursor: pointer; text-decoration: underline; font-weight : 600;" "href="#">Termos de Uso</a>, a <a style="color: #23489F; cursor: pointer; text-decoration: underline; font-weight : 600;" "href="#">Política de Privacidade</a>, assim como, tenho ciência da <a style="color: #23489F; cursor: pointer; text-decoration: underline; font-weight : 600;" "href="#">Cartilha de Riscos</a> que podem ocorrer na compra de Royalties Musicais.`,
+    },
+};
+
+export { CheckoutStrings };

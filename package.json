@@ -1,0 +1,42 @@
+{
+  "name": "hit-invest",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "code-check": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/next-js": "^2.1.4",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@hookform/resolvers": "^3.3.4",
+    "@types/node": "20.4.0",
+    "@types/react": "18.2.14",
+    "@types/react-dom": "18.2.6",
+    "axios": "^1.4.0",
+    "eslint-config-next": "13.4.8",
+    "ethers": "^5.0.0",
+    "framer-motion": "^10.12.18",
+    "mobx": "^6.9.0",
+    "mobx-react-lite": "^3.4.3",
+    "next": "13.4.8",
+    "payment-token-efi": "^3.0.3",
+    "react": "18.2.0",
+    "react-animation-on-scroll": "^5.1.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.51.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.3",
+    "typescript": "5.1.6",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.3.0",
+    "eslint": "^8.44.0"
+  }
+}
